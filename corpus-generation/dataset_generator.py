@@ -14,6 +14,7 @@ class Generator(object):
         self.corpus = []
 
     def load_grammar(self, path: str, pcfg: bool = False):
+        # TODO Add more grammar types
         with open(path, 'r') as f:
             loaded_grammar = f.read()
         if pcfg:
