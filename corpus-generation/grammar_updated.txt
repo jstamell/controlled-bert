@@ -1,0 +1,41 @@
+S -> NP VP
+NP -> PN
+NP -> PN Rel
+NP -> Det Nbar
+Nbar -> N
+Nbar -> N Rel
+Rel -> Wh VP
+VP -> IV
+VP -> TV NP
+VP -> DV NP PP
+VP -> SV S
+PP -> P NP
+PN -> 'vincent'
+PN -> 'man in blue jeans'
+PN -> 'woman in blue jeans'
+PN -> 'man in red cap'
+PN -> 'woman in red cap'
+PN -> 'mia'
+PN -> 'marsellus'
+PN -> 'jules'
+Det -> 'a'
+Det -> 'the'
+Det -> 'her'
+Det -> 'his'
+N -> 'gun'
+N -> 'robber'
+N -> 'man'
+N -> 'woman'
+Wh -> 'who'
+Wh -> 'that'
+P -> 'to'
+IV -> 'died'
+IV -> 'fell'
+TV -> 'loved'
+TV -> 'shot'
+TV -> 'knew'
+DV -> 'gave'
+DV -> 'handed'
+SV -> 'knew'
+SV -> 'believed'
+
