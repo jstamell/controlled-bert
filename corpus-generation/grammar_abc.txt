@@ -1,4 +1,4 @@
-S -> A
+S -> A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z 
 A -> 'a' B | 'b' B | 'c' B | 'a' | AA
 B -> 'b' C | 'c' C | 'd' C | 'b' | AA
 C -> 'c' D | 'd' D | 'e' D | 'c' | AA
@@ -24,6 +24,6 @@ V -> 'v' W | 'w' W | 'x' W | 'v' | AA
 W -> 'w' X | 'x' X | 'y' X | 'w' | AA
 X -> 'x' Y | 'y' Y | 'z' Y | 'x' | AA
 Y -> 'y' Z | 'z' Z | 'a' Z | 'y' | AA
-Z -> 'z' | 'a' | 'b' | AA
+Z -> 'z' A | 'a' A | 'b' A | AA
 
 
