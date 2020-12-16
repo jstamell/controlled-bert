@@ -24,6 +24,6 @@ V -> 'v' W | 'w' W | 'x' W | 'v' | AA
 W -> 'w' X | 'x' X | 'y' X | 'w' | AA
 X -> 'x' Y | 'y' Y | 'z' Y | 'x' | AA
 Y -> 'y' Z | 'z' Z | 'a' Z | 'y' | AA
-Z -> 'z' A | 'a' A | 'b' A | AA
+Z -> 'z' A | 'a' A | 'b' A | 'z' | AA
 
 
