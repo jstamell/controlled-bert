@@ -1,0 +1,29 @@
+S -> A
+A -> 'a' B | 'b' B | 'c' B | 'a' | AA
+B -> 'b' C | 'c' C | 'd' C | 'b' | AA
+C -> 'c' D | 'd' D | 'e' D | 'c' | AA
+D -> 'd' E | 'e' E | 'f' E | 'd' | AA
+E -> 'e' F | 'f' F | 'g' F | 'e' | AA
+F -> 'f' G | 'g' G | 'h' G | 'f' | AA
+G -> 'g' H | 'h' H | 'i' H | 'g' | AA
+H -> 'h' I | 'i' I | 'j' I | 'h' | AA
+I -> 'i' J | 'j' J | 'k' J | 'i' | AA
+J -> 'j' K | 'k' K | 'l' K | 'j' | AA
+K -> 'k' L | 'l' L | 'm' L | 'k' | AA
+L -> 'l' M | 'm' M | 'n' M | 'l' | AA
+M -> 'm' N | 'n' N | 'o' N | 'm' | AA
+N -> 'n' O | 'o' O | 'p' O | 'n' | AA
+O -> 'o' P | 'p' P | 'q' P | 'o' | AA
+P -> 'p' Q | 'q' Q | 'r' Q | 'p' | AA
+Q -> 'q' R | 'r' E | 's' R | 'q' | AA
+R -> 'r' S | 's' S | 't' S | 'r' | AA
+S -> 's' T | 't' T | 'u' T | 's' | AA
+T -> 't' U | 'u' U | 'v' U | 't' | AA
+U -> 'u' V | 'v' V | 'w' V | 'u' | AA
+V -> 'v' W | 'w' W | 'x' W | 'v' | AA
+W -> 'w' X | 'x' X | 'y' X | 'w' | AA
+X -> 'x' Y | 'y' Y | 'z' Y | 'x' | AA
+Y -> 'y' Z | 'z' Z | 'a' Z | 'y' | AA
+Z -> 'z' | 'a' | 'b' | AA
+
+
